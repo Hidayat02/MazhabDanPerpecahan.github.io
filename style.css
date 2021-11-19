@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(41, 37, 37);
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+header .logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .logo span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+}
+
+header .navbar a {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+header .navbar a:hover {
+  color: orange;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 6rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.home .content p {
+  font-size: 5rem;
+  color: #fff;
+  padding: 3.5rem 0;
+}
+
+.home .img-container img {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mazhab .heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+
+.mazhab .heading font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.mazhab img {
+  width: 900px;
+  height: 300px;
+  padding: 1rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.mazhab h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.mazhab h2 font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.mazhab p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: lowercase;
+  color: white;
+}
+
+.mazhab table {
+  border: 1px solid white;
+  align-items: center;
+  background: rgba(155, 104, 39, 0.726);
+}
+
+.mazhab td {
+  border: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.mazhab .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.mazhab .row .img {
+  flex: 1 1 35rem;
+  height: 40rem;
+  position: relative;
+  border: 1rem solid #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1.5rem #666;
+}
+
+.mazhab .row .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.mazhab .row .paragraph {
+  flex: 1 1 70rem;
+}
+
+.mazhab .row .paragraph h3 font {
+  font-family: arial;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.mazhab .row .paragraph p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.punca .heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+
+.punca .heading font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.punca table {
+  border: 1px black;
+  background: blanchedalmond;
+}
+
+.punca table th {
+  border: 0.5px black;
+  width: 600px;
+  padding: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #333;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.punca table td {
+  border: 0.5px black;
+  width: 600px;
+  padding: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #666;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.kesan .heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+
+.kesan .heading font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.kesan table {
+  border: 1px solid white;
+  align-items: center;
+  background: rgba(155, 104, 39, 0.726);
+}
+
+.kesan td {
+  border: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.kesan h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.kesan h2 font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.kesan p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: lowercase;
+  color: white;
+  font-weight: bold;
+}
+
+.kesan .row .paragraph p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.atasi .heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+
+.atasi .heading font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.atasi table {
+  border: 1px solid white;
+  align-items: center;
+  background: rgba(155, 104, 39, 0.726);
+}
+
+.atasi td {
+  border: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.atasi h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.atasi h2 font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.atasi .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.atasi .row .img {
+  flex: 1 1 35rem;
+  height: 30rem;
+  position: relative;
+  border: 1rem solid #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1.5rem #666;
+}
+
+.atasi .row .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.atasi .row .paragraph {
+  flex: 1 1 70rem;
+}
+
+.atasi .row .paragraph h3 font {
+  font-family: arial;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.atasi .row .paragraph p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: arial;
+  color: #fff;
+}
+
+.kesimpulan .heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+
+.kesimpulan .heading font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.kesimpulan table {
+  border: 1px solid white;
+  align-items: center;
+  background: rgba(155, 104, 39, 0.726);
+}
+
+.kesimpulan td {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.footer {
+  background: #000;
+}
+.footer .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer .box-container .box {
+  padding: 1rem 0;
+  flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.7;
+  color: #fff;
+}
+
+.footer .box-container .box p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.7;
+  color: #fff;
+}
+
+.footer .box-container .box a {
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.7;
+  color: #fff;
+}
+
+.footer .box-container .box a:hover {
+  color: orange;
+  text-decoration: underline;
+}
